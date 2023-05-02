@@ -1,1 +1,17 @@
 /*Resetting Default Values*/
+*, *::before, *::after
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat-Regular', 'FontAwesome';
+}
+
+/* Personalized Framework Classes */
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
