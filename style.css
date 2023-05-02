@@ -164,16 +164,6 @@
     border: 8px solid  rgba(0,109,251,255);
 }
 
-.half-row
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 50%;
-    height: 100%;
-    background-color: rgba(0,109,251,255);
-}
-
 .offset
 {
     margin-top: 20px;
