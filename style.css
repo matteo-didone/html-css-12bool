@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 50px;
 }
 
 .col-1
@@ -79,7 +80,7 @@
 
 .col-12
 {
-    flex-basis: calc((100% / 12) * 12);
+    flex-basis: 100%;
 }
 
 .col-offset-1
@@ -137,6 +138,38 @@
     margin-left: calc((100% / 12) * 11);
 }
 
+/* Out of Framework classes */
 
+[class^="col-"] 
+{
+    /* CSS properties to apply to all classes that begin with "col-" */
+    background-color: rgba(0,109,251,255);
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+}
 
+.half-row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0,109,251,255);
+}
 
+.offset
+{
+    margin-top: 20px;
+}
+
+.half-row .col-2, .half-row .col-6, .half-row .col-8
+{
+    background-color: #00e065;
+}
+
+.sixth-row
+{    
+    margin-bottom: 20px;
+}
