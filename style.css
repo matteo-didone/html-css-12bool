@@ -147,6 +147,21 @@
     color: white;
     border: 1px solid white;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth-row
+{    
+    margin-bottom: 20px;
+}
+
+.sixth-row .col-6 .nested
+{
+    height: 90%;
+    background-color: #00e065;
+    border: 8px solid  rgba(0,109,251,255);
 }
 
 .half-row
@@ -164,12 +179,7 @@
     margin-top: 20px;
 }
 
-.half-row .col-2, .half-row .col-6, .half-row .col-8
+.offset .row .col-1 .col-1, .offset .row .col-2 .col-2, .offset .row .col-3 .col-3, .offset .row .col-4 .col-4, .offset .row .col-5 .col-5, .offset .row .col-6 .col-6, .offset .row .col-7 .col-7, .offset .row .col-8 .col-8, .offset .row .col-9 .col-9, .offset .row .col-10 .col-10, .offset .row .col-11 .col-11
 {
-    background-color: #00e065;
-}
-
-.sixth-row
-{    
-    margin-bottom: 20px;
+    border: none;
 }
